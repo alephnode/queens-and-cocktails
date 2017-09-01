@@ -1,0 +1,121 @@
+/* fonts */
+
+/* vietnamese */
+@font-face {
+  font-family: 'Nunito';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Nunito Regular'), local('Nunito-Regular'), url(https://fonts.gstatic.com/s/nunito/v8/DbmoEiLFv2l2THgnoltNxn-_kf6ByYO6CLYdB4HQE-Y.woff2) format('woff2');
+  unicode-range: U+0102-0103, U+1EA0-1EF9, U+20AB;
+}
+/* latin-ext */
+@font-face {
+  font-family: 'Nunito';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Nunito Regular'), local('Nunito-Regular'), url(https://fonts.gstatic.com/s/nunito/v8/Ja-W2r1mUFvMx9Mn05mLi3-_kf6ByYO6CLYdB4HQE-Y.woff2) format('woff2');
+  unicode-range: U+0100-024F, U+1E00-1EFF, U+20A0-20AB, U+20AD-20CF, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'Nunito';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Nunito Regular'), local('Nunito-Regular'), url(https://fonts.gstatic.com/s/nunito/v8/6TbRXKWJjpj6V2v_WyRbMevvDin1pK8aKteLpeZ5c0A.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215;
+}
+
+/* end fonts */
+
+body {
+  background: url('./assets/images/ballroom-bg.jpg');
+  background-size: cover;
+  height:100vh;
+  text-shadow: 2px 4px 10px rgba(0,0,0,.3);
+  background-position: 50% 0%;
+  font: 100% sans-serif;
+  background-repeat: no-repeat;
+  font-family: 'Nunito', sans-serif;
+}
+
+h2 {
+  font-size: 3rem
+}
+
+body::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-image: linear-gradient(to bottom right,#000,#333);
+    opacity: .4;
+}
+
+.App,h1,h2,h3,div,a,p {
+  z-index: 1
+}
+
+
+html, body {
+  color: white;
+  margin: 0px;
+  padding: 0px;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+html {
+  box-sizing: border-box;
+}
+
+.navbar {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  width: 100%;
+  background: transparent;
+  padding: 20px;
+  margin: 0 0 20px 0;
+}
+
+.header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  height: 80vh
+}
+
+.navbar > * {
+  margin: 0 10px;
+}
+
+.navbar > :nth-child(1) {
+  margin-right: auto;
+}
+a {
+  padding: 10px;
+}
+
+@media (max-width: 650px) {
+  .navbar {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+  .no-tiny {
+    display: none;
+  }
+  .logo {
+    width: 100%;
+    text-align: center
+  }
+}
