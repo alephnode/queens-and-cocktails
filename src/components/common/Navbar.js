@@ -8,8 +8,7 @@ class Navbar extends React.Component {
         <a className="logo">Queens & Cocktails</a>
         <a className="no-tiny">About</a>
         <a className="no-tiny">Bios</a>
-        <a className="no-tiny">Showtimes</a>
-        <a className="no-tiny">Get Tickets</a>
+        <a className="no-tiny">Showtimes & Tickets</a>
       </div>
     );
   }
