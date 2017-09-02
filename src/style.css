@@ -39,13 +39,27 @@ body {
 }
 
 .about-container, .bios-container, .showtimes-container {
-    min-height: 500px;
+    height: 80vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     color: #333;
     border-bottom: 1px solid #888
+}
+
+.about-container {
+    background: #212121;
+    color: white;
+}
+
+.bios-container {
+    background: #d9d9d9;
+}
+
+.showtimes-container {
+    background: #212121;
+    color: white
 }
 
 body::before {
@@ -108,9 +122,9 @@ html {
 
 .header-section {
   text-shadow: 2px 4px 10px rgba(0,0,0,.3);
-  background: url('./assets/images/ballroom-bg.jpg');
+  background: url('./assets/images/home-background.jpg');
   background-size: cover;
-  background-position: 50% 0%;
+  background-position: 50% 50%;
   background-repeat: no-repeat;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -127,7 +141,7 @@ html {
 }
 
  .navbar a:hover {
-    color: #bbb
+    color: #FDC015
  }
 
 .navbar > * {
