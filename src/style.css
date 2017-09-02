@@ -92,6 +92,20 @@ html {
   position: absolute
 }
 
+.footer {
+  width: 100%;
+  background: transparent;
+  padding: 20px;
+  position: absolute;
+  color: black;
+  text-align: center
+}
+
+.footer p {
+  margin: 0;
+  font-size: 13px
+}
+
 .header-section {
   text-shadow: 2px 4px 10px rgba(0,0,0,.3);
   background: url('./assets/images/ballroom-bg.jpg');
@@ -128,6 +142,10 @@ a {
 }
 
 @media (max-width: 650px) {
+
+  .footer p {
+    font-size: 11px
+  }
 
   .logo-container img {
     max-width: 275px

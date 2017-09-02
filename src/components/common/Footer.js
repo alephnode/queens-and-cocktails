@@ -1,13 +1,8 @@
-import React from 'react';
-import '../../style.css'
+import React from 'react'
 
-class Footer extends React.Component {
-  render() {
-    return (
-      <div className="footer">
-      </div>
-    );
-  }
-}
+const Footer = () =>
+  <div className="footer">
+    <p>Copyright &copy; 2017 Queens &amp; Cocktails. All Rights Reserved.</p>
+  </div>
 
 export default Footer

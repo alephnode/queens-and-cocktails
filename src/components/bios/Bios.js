@@ -1,5 +1,4 @@
 import React from 'react';
-import '../../style.css'
 
 class Bios extends React.Component {
   render() {
