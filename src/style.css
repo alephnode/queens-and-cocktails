@@ -38,8 +38,16 @@ body {
   font-family: 'Nunito', sans-serif;
 }
 
-h2 {
-  font-size: 3rem
+.center-logo {
+  background: url('./assets/images/qandclogo.png');
+  width: 100%;
+  height: auto;
+  min-height: 500px;
+  background-repeat: no-repeat
+}
+
+.logo-container {
+    margin-bottom: 40px
 }
 
 body::before {

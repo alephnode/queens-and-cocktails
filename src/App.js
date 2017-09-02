@@ -8,7 +8,9 @@ class App extends Component {
       <div className="App">
         <Navbar />
         <div className="header">
-          <h2>Queens & Cocktails</h2>
+          <div className="logo-container">
+            <img src={require("./assets/images/qandclogo.png")}/>
+          </div>
           <p>coming soon ...</p>
         </div>
       </div>
