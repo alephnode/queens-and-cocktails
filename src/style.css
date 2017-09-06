@@ -47,13 +47,14 @@ body {
     border-bottom: 1px solid #888
 }
 
-.about-container, .bios-container {
+.bios-container {
   height: 80vh;
 }
 
 .about-container {
-    background: #212121;
+    background: #E2294F;
     color: white;
+    padding: 70px auto
 }
 
 .bios-container {
@@ -80,6 +81,12 @@ body {
     font-size: 3rem;
     font-weight: 900;
     margin: 50px auto;
+}
+
+.about-text {
+    font-size: 2.5rem;
+    padding: 75px;
+    text-align: center;
 }
 
 .showtimes-button-container {
@@ -207,6 +214,10 @@ a {
 }
 
 @media (max-width: 650px) {
+
+  .about-text {
+    font-size: 2rem;
+  }
 
   .showtimes-time-container {
       padding: 50px 0px;
