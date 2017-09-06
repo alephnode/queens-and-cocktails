@@ -15,7 +15,7 @@ class App extends Component {
           <div className="logo-container">
             <img alt="" src={require("./assets/images/qandclogo.png")}/>
           </div>
-          <p>coming soon ...</p>
+          <p>Be Fabulous.</p>
         </div>
         <About />
         <Bios />

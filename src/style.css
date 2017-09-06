@@ -39,13 +39,16 @@ body {
 }
 
 .about-container, .bios-container, .showtimes-container {
-    height: 80vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     color: #333;
     border-bottom: 1px solid #888
+}
+
+.about-container, .bios-container {
+  height: 80vh;
 }
 
 .about-container {
@@ -58,11 +61,60 @@ body {
 }
 
 .showtimes-container {
-    background: #212121;
-    color: white
+    background: linear-gradient(to bottom right,rgba(0,0,0,0.6)),url('./assets/images/ballroom-bg.jpg');
+    background-position: 50% 50%;
+    background-size: cover;
+    color: white;
 }
 
-body::before {
+.showtimes-time-container {
+    padding: 50px 100px;
+    text-align: center;
+    border: 1px solid white;
+    border-radius: 5px;
+    font-size: 18px;
+    background: rgba(0,0,0,0.6);
+}
+
+.showtimes-title {
+    font-size: 3rem;
+    font-weight: 900;
+    margin: 50px auto;
+}
+
+.showtimes-button-container {
+  margin: 50px auto;
+  text-align: center
+}
+
+.showtimes-button-container p {
+  color: #999
+}
+
+.showtimes-button-container button {
+  border-style: none;
+  padding: 15px 45px;
+  font-size: 1.1rem;
+  border: 2px solid darkgray;
+  background: lightgray;
+  color: #999;
+  border-radius: 5px;
+}
+
+.showtime {
+    margin-bottom: 10px
+}
+
+.divide {
+    margin-bottom: 15px;
+    margin-top: 5px
+}
+
+.opener {
+    color: #FEE157
+}
+
+.header-section::before {
     content: '';
     position: absolute;
     top: 0;
@@ -103,7 +155,8 @@ html {
   background: transparent;
   padding: 20px;
   margin: 0 0 20px 0;
-  position: absolute
+  position: absolute;
+  justify-content: center;
 }
 
 .footer {
@@ -148,14 +201,21 @@ html {
   margin: 0 10px;
 }
 
-.navbar > :nth-child(1) {
-  margin-right: auto;
-}
+
 a {
   padding: 10px;
 }
 
 @media (max-width: 650px) {
+
+  .showtimes-time-container {
+      padding: 50px 0px;
+      border: none
+  }
+
+  .showtimes-title {
+    font-size: 1.7rem;
+  }
 
   .footer p {
     font-size: 11px
