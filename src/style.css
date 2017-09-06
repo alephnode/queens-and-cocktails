@@ -44,21 +44,40 @@ body {
     justify-content: center;
     align-items: center;
     color: #333;
-    border-bottom: 1px solid #888
+    border-bottom: 1px solid #fff
 }
 
 .bios-container {
   height: 80vh;
 }
 
+.about-container, .tease-container {
+    color: white;
+    padding: 50px 0px;
+    border-bottom: 1px solid white
+}
+
 .about-container {
     background: #E2294F;
-    color: white;
-    padding: 70px auto
+}
+
+.tease-container {
+    background: #FEE157;
+}
+
+.hero-img-container {
+    height: 450px;
+    background: url("./assets/images/ballys.jpg");
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    border-bottom: 2px solid white
 }
 
 .bios-container {
-    background: #d9d9d9;
+    background: linear-gradient(to bottom right,rgba(0,0,0,0.4)),url('./assets/images/indigo_lounge2.jpg');
+    background-repeat: no-repeat;
+    background-position: 50% 25%;
+    background-size: cover;
 }
 
 .showtimes-container {
@@ -83,9 +102,9 @@ body {
     margin: 50px auto;
 }
 
-.about-text {
+.about-text, .tease-container {
     font-size: 2.5rem;
-    padding: 75px;
+    padding: 95px;
     text-align: center;
 }
 
@@ -168,10 +187,10 @@ html {
 
 .footer {
   width: 100%;
-  background: transparent;
+  background: #E2294F;
   padding: 20px;
   position: absolute;
-  color: black;
+  color: #fff;
   text-align: center
 }
 
@@ -215,7 +234,7 @@ a {
 
 @media (max-width: 650px) {
 
-  .about-text {
+  .about-text, .tease-container {
     font-size: 2rem;
   }
 

@@ -3,6 +3,8 @@ import './style.css'
 import Navbar from './components/common/Navbar'
 import Footer from './components/common/Footer'
 import About from './components/about/About'
+import VegasHeroImage from './components/vegas-hero-image/VegasHeroImage'
+import ShowtimesTease from './components/showtimes-tease/ShowtimesTease'
 import Bios from './components/bios/Bios'
 import ShowtimesTickets from './components/showtimes-tickets/ShowtimesTickets'
 
@@ -18,7 +20,9 @@ class App extends Component {
           <p>Be Fabulous.</p>
         </div>
         <About />
+        <VegasHeroImage />
         <Bios />
+        <ShowtimesTease />
         <ShowtimesTickets />
         <Footer />
       </div>
