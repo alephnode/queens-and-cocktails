@@ -54,7 +54,6 @@ body {
     justify-content: center;
     align-items: center;
     color: #FFF;
-    border-bottom: 1px solid #fff
 }
 
 .bio-box-container {
@@ -66,9 +65,8 @@ body {
 }
 
 .bio-box {
-  width: 33%;
+  width: 33.3333%;
   height: 300px;
-  border:1px solid white;
   position: relative;
 }
 
@@ -80,15 +78,14 @@ body {
 .about-container, .tease-container, .tease-bio-container {
     color: white;
     padding: 50px 0px;
-    border-bottom: 1px solid white
 }
 
 .about-container {
-    background: #E2294F;
+    background: #FF4F4C;
 }
 
 .tease-container {
-    background: #FEE157;
+    background: #00D18E;
 }
 
 .bio-box {
@@ -127,7 +124,6 @@ body {
     background: url("./assets/images/ballys.jpg");
     background-repeat: no-repeat;
     background-position: 50% 50%;
-    border-bottom: 2px solid white
 }
 
 .bios-container {
@@ -168,7 +164,7 @@ body {
 .tease-bio-container {
     font-size: 2.5rem;
     text-align: center;
-    background: #5BC0EB
+    background: #F0C7DE
 }
 
 .showtimes-button-container {
