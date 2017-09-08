@@ -3,7 +3,7 @@ import React from 'react';
 class Bios extends React.Component {
   render() {
     return (
-      <div className="bio-box-container">
+      <div className="bio-box-container" id="bios">
           <div className="bio-box">
             <img className="bolivia" alt="" src={require("../../assets/images/bolivia-570h-final.jpg")}/>
             <div className="banner">HOST: Bolivia Carmichaels</div>
