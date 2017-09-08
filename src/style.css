@@ -124,7 +124,7 @@ body {
 
 .hero-img-container {
     height: 450px;
-    background: url("./assets/images/ballys.jpg");
+    background: linear-gradient(to right, rgba(255,255,255,0.3), rgba(255,255,255,0.3)),url("./assets/images/ballys.jpg");
     background-repeat: no-repeat;
     background-position: 50% 50%;
 }
@@ -206,17 +206,6 @@ body {
     color: #FEE157
 }
 
-.header-section::before {
-    content: '';
-    position: absolute;
-    top: 0;
-    right: 0;
-    bottom: 0;
-    left: 0;
-    background-image: linear-gradient(to bottom right,#000,#333);
-    opacity: .4;
-}
-
 .App,h1,h2,h3,div,a,p {
   z-index: 1
 }
@@ -267,7 +256,7 @@ html {
 
 .header-section {
   text-shadow: 2px 4px 10px rgba(0,0,0,.3);
-  background: url('./assets/images/home-background.jpg');
+  background: linear-gradient(to right, rgba(70,0,0,0.3), rgba(10,0,0,0.5)),url('./assets/images/home-background.jpg');
   background-size: cover;
   background-position: 50% 50%;
   background-repeat: no-repeat;
@@ -305,10 +294,6 @@ a {
 }
 
 @media (max-width: 650px) {
-
-  .header-section::before {
-    bottom:5px
-  }
 
   .tease-bio-container {
     padding: 5px
