@@ -25,23 +25,6 @@
   unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215;
 }
 
-.banner {
-  position: absolute;
-  bottom: 0;
-  height: 60px;
-  background: rgba(33,33,33,0.7);
-  z-index: 99999;
-  width: 100%;
-  display: flex;
-  justify-content: center;
-  align-content: center;
-  align-items: center;
-  text-transform:uppercase;
-  font-size: 18px;
-  font-weight: 100;
-  letter-spacing: 1.2px
-}
-
 /* end fonts */
 
 body {
@@ -49,7 +32,17 @@ body {
   font-family: 'Nunito', sans-serif;
 }
 
-
+.banner {
+  position: absolute;
+  padding: 20px;
+  left: 50%;
+  top: 90%;
+  width: 100%;
+  bottom: -10%;
+  text-align: center;
+  background: rgba(33,33,33,0.7);
+  transform: translate(-50%,-50%);
+}
 
 .logo-container {
     margin-bottom: 40px
@@ -66,6 +59,7 @@ body {
 
 .bio-box-container {
   display: flex;
+  display: -webkit-flex;
   flex-wrap: wrap;
   justify-content: center;
   align-items:center;
@@ -98,7 +92,9 @@ body {
 }
 
 .bio-box {
+  position: relative;
   display: flex;
+  display: -webkit-flex;
   justify-content: center;
   align-items: center;
   overflow: hidden
