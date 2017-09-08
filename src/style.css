@@ -47,12 +47,26 @@ body {
     border-bottom: 1px solid #fff
 }
 
+.bio-box-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items:center;
+}
+
+.bio-box {
+  width: 33%;
+  height: 300px;
+  border:1px solid white;
+  background: #eee
+}
+
 .bios-container {
   height: 80vh;
   font-size: 22px
 }
 
-.about-container, .tease-container {
+.about-container, .tease-container, .tease-bio-container {
     color: white;
     padding: 50px 0px;
     border-bottom: 1px solid white
@@ -64,6 +78,35 @@ body {
 
 .tease-container {
     background: #FEE157;
+}
+
+.bio-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden
+}
+
+.bio-box img {
+  flex-shrink: 0;
+  min-width: 100%;
+  min-height: 100%
+}
+
+.nebraska {
+  margin-top: 270px;
+}
+
+.toni {
+  margin-top: 170px;
+}
+
+.felicity {
+  margin-bottom: 100px
+}
+
+.derrick {
+  margin-top: 190px
 }
 
 .hero-img-container {
@@ -107,6 +150,12 @@ body {
     font-size: 2.5rem;
     padding: 95px;
     text-align: center;
+}
+
+.tease-bio-container {
+    font-size: 2.5rem;
+    text-align: center;
+    background: #5BC0EB
 }
 
 .showtimes-button-container {
@@ -233,13 +282,23 @@ a {
   padding: 10px;
 }
 
+@media (max-width: 1200px) and (min-width: 651px) {
+  .bio-box {
+    width: 50%
+  }
+}
+
 @media (max-width: 650px) {
 
-  .about-text, .tease-container {
+  .bio-box {
+    width: 100%
+  }
+
+  .about-text {
     font-size: 2rem;
   }
 
-  .showtimes-time-container {
+  .showtimes-time-container{
       padding: 50px 0px;
       border: none
   }

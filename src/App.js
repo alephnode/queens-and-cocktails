@@ -6,6 +6,7 @@ import About from './components/about/About'
 import VegasHeroImage from './components/vegas-hero-image/VegasHeroImage'
 import ShowtimesTease from './components/showtimes-tease/ShowtimesTease'
 import Bios from './components/bios/Bios'
+import TeaseBios from './components/tease-bios/TeaseBios'
 import ShowtimesTickets from './components/showtimes-tickets/ShowtimesTickets'
 
 class App extends Component {
@@ -21,6 +22,7 @@ class App extends Component {
         </div>
         <About />
         <VegasHeroImage />
+        <TeaseBios />
         <Bios />
         <ShowtimesTease />
         <ShowtimesTickets />
