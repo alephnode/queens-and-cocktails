@@ -303,6 +303,14 @@ a {
 
 @media (max-width: 650px) {
 
+  .tease-bio-container {
+    padding: 5px
+  }
+
+  .about-text, .tease-container {
+    padding: 20px
+  }
+
   .bio-box {
     width: 100%
   }
@@ -338,5 +346,10 @@ a {
   .logo {
     width: 100%;
     text-align: center
+  }
+
+  .hero-img-container {
+    height: 275px;
+    background-position: 2% 99%;
   }
 }
