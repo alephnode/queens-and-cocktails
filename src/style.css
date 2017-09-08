@@ -307,7 +307,7 @@ a {
     width: 100%
   }
 
-  .about-text {
+  .about-text, .tease-container, .tease-bio-container p {
     font-size: 2rem;
   }
 
