@@ -13,7 +13,7 @@ class ShowtimesTickets extends React.Component {
             Sept. 16, 2017 | 7-9 p.m., Doors at 6 p.m.
           </div>
             <div className="divide">
-            --------------
+            <hr/>
             </div>
             <div className="showtime">
               Sept. 22, 2017 | 7-9 p.m., Doors at 6 p.m.
@@ -22,7 +22,7 @@ class ShowtimesTickets extends React.Component {
               Sept. 23, 2017 | 7-9 p.m., Doors at 6 p.m.
             </div>
             <div className="divide">
-            --------------
+              <hr/>
             </div>
             <div className="showtime">
               Sept. 29, 2017 | 7-9 p.m., Doors at 6 p.m.
@@ -31,7 +31,7 @@ class ShowtimesTickets extends React.Component {
               Sept. 30, 2017 | 7-9 p.m., Doors at 6 p.m.
             </div>
             <div className="divide">
-            --------------
+            <hr/>
             </div>
             <div className="showtime">
               Oct. 6, 2017 | 7-9 p.m., Doors at 6 p.m.

@@ -34,6 +34,9 @@ body {
 
 .banner {
   position: absolute;
+  font-size: 18px;
+  font-weight: 100;
+  text-transform: uppercase;
   padding: 20px;
   left: 50%;
   top: 90%;
@@ -173,7 +176,8 @@ body {
 }
 
 .showtimes-button-container p {
-  color: #999
+  color: #fff;
+  margin-bottom: 50px
 }
 
 .showtimes-button-container button {
@@ -187,12 +191,15 @@ body {
 }
 
 .showtime {
-    margin-bottom: 10px
+    margin-bottom: 4px
 }
 
 .divide {
-    margin-bottom: 15px;
-    margin-top: 5px
+  width: 25%;
+  margin-bottom: 30px;
+  margin-top: 30px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .opener {
@@ -246,10 +253,10 @@ html {
 
 .footer {
   width: 100%;
-  background: #E2294F;
+  margin-top: -60px;
   padding: 20px;
   position: absolute;
-  color: #fff;
+  color: #999;
   text-align: center
 }
 
@@ -298,6 +305,10 @@ a {
 }
 
 @media (max-width: 650px) {
+
+  .header-section::before {
+    bottom:5px
+  }
 
   .tease-bio-container {
     padding: 5px
