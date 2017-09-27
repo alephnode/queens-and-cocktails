@@ -148,7 +148,7 @@ body {
     text-align: center;
     border: 1px solid white;
     border-radius: 5px;
-    font-size: 18px;
+    font-size: 24px;
     background: rgba(0,0,0,0.6);
 }
 
@@ -172,22 +172,27 @@ body {
 
 .showtimes-button-container {
   margin: 50px auto;
-  text-align: center
+  text-align: center;
+  margin-bottom: 150px;
 }
 
-.showtimes-button-container p {
-  color: #fff;
-  margin-bottom: 50px
+.showtimes-button-container a, .showtimes-button-container button {
+  cursor: pointer
 }
 
 .showtimes-button-container button {
   border-style: none;
   padding: 15px 45px;
-  font-size: 1.1rem;
-  border: 2px solid darkgray;
-  background: lightgray;
-  color: #999;
+  background: #FDC015;
+  color: #fff;
   border-radius: 5px;
+  transition: 0.25s all ease;
+  width: 70%;
+  font-size: 1.2em;
+  font-weight: 600;
+}
+.showtimes-button-container button:hover {
+  background: #FCDA4E;
 }
 
 .showtime {
@@ -296,10 +301,14 @@ a {
 @media (max-width: 650px) {
 
   .tease-bio-container {
-    padding: 5px
+    padding: 40px 0px
   }
 
-  .about-text, .tease-container {
+  .tease-container {
+    padding: 60px 0px
+  }
+
+  .about-text {
     padding: 20px
   }
 

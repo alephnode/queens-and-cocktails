@@ -7,42 +7,13 @@ class ShowtimesTickets extends React.Component {
         <div className="showtimes-title">Upcoming Shows &amp; Tickets</div>
         <div className="showtimes-time-container">
           <div className="showtime">
-            Sept. 15, 2017 | 7-9 p.m., Doors at 6 p.m. | <span className="opener">Opening Night!</span>
+            <p>Join us every Friday &amp; Saturday from 8:45 - 10:20 p.m.<br/></p>
+            <p>Doors at 8 p.m.<br/></p>
+            <p>All-You-Can Drink from 8:20 - 10:20 p.m.</p>
           </div>
-          <div className="showtime">
-            Sept. 16, 2017 | 7-9 p.m., Doors at 6 p.m.
-          </div>
-            <div className="divide">
-            <hr/>
-            </div>
-            <div className="showtime">
-              Sept. 22, 2017 | 7-9 p.m., Doors at 6 p.m.
-            </div>
-            <div className="showtime">
-              Sept. 23, 2017 | 7-9 p.m., Doors at 6 p.m.
-            </div>
-            <div className="divide">
-              <hr/>
-            </div>
-            <div className="showtime">
-              Sept. 29, 2017 | 7-9 p.m., Doors at 6 p.m.
-            </div>
-            <div className="showtime">
-              Sept. 30, 2017 | 7-9 p.m., Doors at 6 p.m.
-            </div>
-            <div className="divide">
-            <hr/>
-            </div>
-            <div className="showtime">
-              Oct. 6, 2017 | 7-9 p.m., Doors at 6 p.m.
-            </div>
-            <div className="showtime">
-              Oct. 7, 2017 | 7-9 p.m., Doors at 6 p.m.
-            </div>
-          </div>
+        </div>
           <div className="showtimes-button-container">
-            <button>Buy Tickets</button>
-            <p>Coming Soon!!!</p>
+            <a href="https://www.ticketsource.us/lasvegasdrag"><button>Purchase All-You-Can Drink Package</button></a>
           </div>
         </div>
     );
