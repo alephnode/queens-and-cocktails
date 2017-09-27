@@ -353,4 +353,11 @@ a {
     height: 275px;
     background-position: 2% 99%;
   }
+
+  .showtimes-time-container p {
+    width: 90%;
+    margin: 0px auto 30px auto;
+    font-size: 20px;
+  }
+
 }
