@@ -3,7 +3,7 @@ import React from 'react';
 class ShowtimesTickets extends React.Component {
   render() {
     return (
-      <div id="showtimes-tickets" className="showtimes-container">
+      <div id="showtimes-packages" className="showtimes-container">
         <div className="showtimes-title">Upcoming Shows &amp; Packages</div>
         <div className="showtimes-time-container">
           <div className="showtime">
